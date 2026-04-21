@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables - NEVER commit these
+backend/.env
+backend/.env.local
+backend/.env.production
+Bookbazaar/.env
+Bookbazaar/.env.local
+Bookbazaar/.env.production
+
+# Build output (frontend dist is kept for GitHub Pages)
+dist-ssr/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# Kiro
+.kiro/
